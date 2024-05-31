@@ -1,0 +1,12 @@
+.justified-text {
+    text-align: justify;
+    width: 10rem; /* Ancho fijo para controlar la forma */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+/* Optional: Apply hyphenation */
+.justified-text p {
+    hyphens: auto;
+}
+.colorbg{
+    background-color: #0A173A;
+}
