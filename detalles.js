@@ -29,7 +29,7 @@ fetch(urlCiudades)
         ubicacionMunicipios.innerHTML = '';
         data.forEach(element => {
             let divCiudad = document.createElement('div');
-            divCiudad.classList.add('card', 'mb-3');
+            divCiudad.classList.add('card', 'mb-3','mx-3');
             divCiudad.style.width = '14rem';
             divCiudad.innerHTML = `
             <div class="card-body text-center ">

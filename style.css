@@ -1,12 +1,29 @@
 .justified-text {
     text-align: justify;
-    width: 10rem; /* Ancho fijo para controlar la forma */
-    margin: 0 auto; /* Centrar el contenedor */
+    vertical-align: text-bottom;
+    width: 10rem;
+    word-break: break-word;
+    line-break: normal;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    /* Ancho fijo para controlar la forma */
+    margin: 0 auto;
+    /* Centrar el contenedor */
 }
+
 /* Optional: Apply hyphenation */
 .justified-text p {
     hyphens: auto;
 }
-.colorbg{
-    background-color: #0A173A;
+
+.colorbg {
+    background-image: url(/favicon_io/Flag_of_Colombia-fotor-20240604104640.png);
+}
+
+.sombra {
+    text-shadow: 1px 1px 2px black;
+}
+
+.customWidth {
+    width:20%;
 }
